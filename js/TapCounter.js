@@ -3,14 +3,11 @@ var TapCounter = function(){
 };
 
 TapCounter.prototype.reset = function(){
-    this._tapCount   = 0;
     this._tapTimestamps = [];
     this._tapBPM = 0;
 };
 
 TapCounter.prototype.tap = function(){
-    this._tapCount   = 0;
-
     this._tapTimestamps.push( new Date().getTime() );
     
     var intervalSum = 0;
