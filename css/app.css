@@ -1,0 +1,81 @@
+.rel {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.progress-bar {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.jumbotron {
+    background:none;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    margin-bottom:0;
+}
+
+[name="file"] {
+    display:none !important;
+}
+
+.box {
+    margin-top:20px;
+    width:50%;
+    float:left;
+    height:85px;
+    box-sizing:border-box;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.action-box {
+    padding-right:20px;
+}
+
+.result-box {
+    border-left:1px solid #d4d4d4;
+    border-radius:3px;
+    padding-left:20px;
+}
+
+.result {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    display:none;
+}
+
+.button-container {
+    float:right;
+    margin-right:20px;
+}
+
+.file-container {
+    text-align:right;
+}
+
+.file-container span {
+    font-size:12px;
+    font-style:italic;
+}
+
+.progress {
+    display:none;
+    height:45px;
+}
+
+.progress-bar {
+    float:left;
+}
+
+.author {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+}
